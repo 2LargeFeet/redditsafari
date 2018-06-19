@@ -3,7 +3,7 @@ import praw
 import linecache
 
 reddit = praw.Reddit('bot1')
-nations = [line.rstrip() for line in open('daily_list.txt','r')]
+nations = [line.rstrip() for line in open('daily_list_trimmed.txt','r')]
 #nations_str = ''.join(nations)
 
 for i in nations:
