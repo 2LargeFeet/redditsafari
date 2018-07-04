@@ -1,6 +1,9 @@
 #!/usr/bin/python
 import praw
 import linecache
+import os
+
+os.chdir('/opt/redditsafari/')
 
 reddit = praw.Reddit('bot1')
 nations = [line.rstrip() for line in open('/opt/redditsafari/daily_list_trimmed.txt','r')]
