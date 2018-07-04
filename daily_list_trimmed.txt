@@ -1,5 +1,4 @@
-whitefish
-paloalto
-laredo
-MooreOK
-valencia
+wenatchee
+CapitolHillSea
+mass
+rochestermn

@@ -3,8 +3,7 @@ import praw
 import linecache
 
 reddit = praw.Reddit('bot1')
-nations = [line.rstrip() for line in open('daily_list_trimmed.txt','r')]
-#nations_str = ''.join(nations)
+nations = [line.rstrip() for line in open('/opt/redditsafari/daily_list_trimmed.txt','r')]
 
 for i in nations:
     subreddit = reddit.subreddit(i)
